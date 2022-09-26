@@ -1,0 +1,9 @@
+// Mixin //
+@mixin redes($hover) {
+    text-align: center;
+    margin: 5px;
+    color: white;
+    &:hover{
+    color: $hover;
+    }
+}

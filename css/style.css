@@ -1,0 +1,94 @@
+/* Reseteo */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/*Estilo Footer*/
+footer {
+  background-image: linear-gradient(to top, brown, black);
+  width: 100%;
+  height: 250px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white; }
+  footer ul li {
+    list-style: none; }
+
+/* Fondo Body*/
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: black;
+  color: white; }
+  body h1 {
+    color: brown; }
+    body h1:hover {
+      color: white; }
+
+/* Estilo Button */
+.btn-primary {
+  background-color: rgba(56, 50, 50, 0.445);
+  border-color: white;
+  transition: all 0.2s ease-out; }
+
+/* Estilo Hover Button */
+.btn-primary:hover {
+  background-color: white;
+  border-color: white;
+  color: brown;
+  transform: scale(0.8); }
+
+/* Fondo Navbar Index */
+.bk-opacity {
+  background-color: rgba(56, 50, 50, 0.5); }
+
+/* Fondo Navbar*/
+.bg-brow {
+  background-image: linear-gradient(to bottom, brown, black); }
+
+/* Fondo Card */
+.bk-marron {
+  background-color: brown; }
+
+/* Id Galeria */
+#galeria .col-lg-4 {
+  padding: 5px; }
+
+/* Estilo Img Galeria */
+#galeria img {
+  width: 100%;
+  height: 250px;
+  transition: all 300ms; }
+  #galeria img:hover {
+    transform: scale(1.25); }
+
+/* Ancho Footer */
+.anchoFooter {
+  margin-top: 30px; }
+
+/* Estilo Redes */
+.redes {
+  display: inline-block; }
+
+/* Hover Facebook */
+.bi-facebook {
+  text-align: center;
+  margin: 5px;
+  color: white; }
+  .bi-facebook:hover {
+    color: #3b5998; }
+
+/* Hover Instagram */
+.bi-instagram {
+  text-align: center;
+  margin: 5px;
+  color: white; }
+  .bi-instagram:hover {
+    color: #8a3ab9; }
+
+/* Media Query */
+@media (max-width: 576px) {
+  .mt-mobile {
+    margin-top: 2rem; } }

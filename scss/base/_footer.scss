@@ -1,0 +1,16 @@
+/*Estilo Footer*/
+footer {
+    background-image: linear-gradient(to top, brown, black);
+    width: 100%;
+    height: 250px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    ul {
+        li {
+        list-style: none;
+        }
+    }
+}

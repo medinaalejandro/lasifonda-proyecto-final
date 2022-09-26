@@ -1,0 +1,14 @@
+/* Estilo Button */
+.btn-primary {
+    background-color: rgba(56, 50, 50, 0.445);
+    border-color: $bk-button-h;
+    transition: all 0.2s ease-out;
+}
+
+/* Estilo Hover Button */
+.btn-primary:hover {
+    background-color: $bk-button-h;
+    border-color: $bk-button-h;
+    color: brown;
+    transform: scale(0.8);
+}
